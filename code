@@ -1,0 +1,12 @@
+fibonacci_sequence = [0, 1]
+
+fibonacci_sequence[0]+ fibonacci_sequence[1]
+print(fibonacci_sequence)
+
+fibonacci_sequence.append(fibonacci_sequence[0]+ fibonacci_sequence[1])
+
+print(fibonacci_sequence )
+
+fibonacci_sequence.append(fibonacci_sequence[1]+ fibonacci_sequence[2])
+
+print(fibonacci_sequence )
